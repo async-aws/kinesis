@@ -5,10 +5,7 @@ namespace AsyncAws\Kinesis\Exception;
 use AsyncAws\Core\Exception\Http\ClientException;
 use Symfony\Contracts\HttpClient\ResponseInterface;
 
-/**
- * The Amazon Web Services access key ID needs a subscription for the service.
- */
-final class KMSOptInRequiredException extends ClientException
+final class ValidationException extends ClientException
 {
     protected function populateResult(ResponseInterface $response): void
     {
