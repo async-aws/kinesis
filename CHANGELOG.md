@@ -2,6 +2,10 @@
 
 ## NOT RELEASED
 
+### Added
+
+- AWS api-change: Adds ChannelCount in Amazon Kinesis Data Streams.
+
 ### Changed
 
 - AWS enhancement: Documentation updates.
